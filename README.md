@@ -1,11 +1,10 @@
-------------------------------------
+-----------------------------------
 PRESS ASSOCIATION - QA TECHNICAL TASK
 -------------------------------------
 
 Your task is to test and automate the API available at the url which you have been provided
 
 Documentation describing the implementation and spec of this API is available here: [LINK TO PUBLICLY ACCESSIBLE STORE or PASTED DOCUMENTATION BELOW]
-
 
 ----
 TASK
@@ -20,34 +19,31 @@ Any FAILING tests should PASS if any broken functionality gets fixed.
 --------
 Overview
 --------
-#Built the sample automation framework.
-Bdd Cucumber framework.
+*Built the sample automation framework.
+*Bdd Cucumber framework.
 
 ---------------
 Technologies
 ---------------
-Java
-Junit
-Maven
+*Java
+*Junit
+*Maven
 
-------------------
-Executing the Test
------------------
+##Executing the Test
+
 Run feature file by RunCukeTest.
 Run 'mvn clean install -DskipTests'
 Run 'mvn test'(DailySongAPITest.java will execute)
-------------
-Improvements
-------------
 
-Framework code needs to seperated as a dependent maven project.
-Code comments and method comments needs to be added.
-Constants needs to be pulled into seperate Constants file.
-Util functions needs to be created to reuse the code.
-Need to Implement the pending Methods.
-----------
-Note
---------
-TestNg format Test cases written using RestAssured.
+#Improvements
+
+*Framework code needs to seperated as a dependent maven project.
+*Code comments and method comments needs to be added.
+*Constants needs to be pulled into seperate Constants file.
+*Util functions needs to be created to reuse the code.
+*Need to Implement the pending Methods.
+
+#Note
+*TestNg format Test cases written using RestAssured.
 
 @Author : Ramu
